@@ -33,16 +33,6 @@ Justify recommendations for design selection based on simulation evidence and pr
 
 Relate outcomes to sustainability and manufacturing constraints in thermal management (Evaluate, Create)
 
-Level	Sample Outcome
-Remembering	Define key heat transfer principles, material properties
-Understanding	Explain modes of heat transfer and significance of fin geometry
-Applying	Build 3D models, generate meshes, and set up simulations
-Analyzing	Inspect mesh quality, analyze simulation diagnostic data
-Evaluating	Compare temperature distributions and material footprints across designs
-Creating	Propose improved fin geometries or cooling solutions based on simulation data
-<img width="641" height="169" alt="image" src="https://github.com/user-attachments/assets/8b31dc96-2020-4fdc-8a2a-1cf807fe6e3c" />
-
-
 ## Software Requirements
 
 ### ANSYS Fluent Student Edition - Completely Free
@@ -68,16 +58,6 @@ Creating	Propose improved fin geometries or cooling solutions based on simulatio
 2. **Clone this repository**: 
    ```bash
    git clone https://github.com/anjurgupta/Fluent-Heat-Sink-Workshop 
-
-### Bloom's Taxonomy Alignment
-
-**Apply**: Execute complete CFD workflows from geometry creation through post-processing
-
-**Analyze**: Interpret temperature distributions, velocity fields, and heat transfer mechanisms
-
-**Evaluate**: Compare competing heat sink designs using quantitative simulation evidence
-
-**Create**: Design optimized heat sink configurations balancing multiple objectives (thermal performance, material usage, manufacturability)
 
 ## Problem Specifications
 
@@ -121,8 +101,6 @@ You are free to:
 Under the following terms:
 - **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made
 
-See the [LICENSE](LICENSE) file for complete details.
-
 ## Citation
 
 If you use these materials in your teaching or research, please cite:
@@ -141,14 +119,14 @@ I would love to hear about it! Please let us know so we can build a community of
 
 ## Acknowledgments
 
-- Problem adapted from classical heat transfer textbook problems in electronics cooling
+- Problem adapted from Çengel, Y. A., & Ghajar, A. J. (2020. *Heat and Mass Transfer: Fundamentals and Applications* (6th ed.). McGraw-Hill.
 - ANSYS for providing free Student software that enables accessible engineering education worldwide
 
 ## Additional Resources
 
 ### Heat Transfer Fundamentals
 - Bergman, T. L., Lavine, A. S., Incropera, F. P., & DeWitt, D. P. (2011). *Fundamentals of Heat and Mass Transfer* (7th ed.). Wiley.
-- Çengel, Y. A., & Ghajar, A. J. (2014). *Heat and Mass Transfer: Fundamentals and Applications* (5th ed.). McGraw-Hill.
+- Çengel, Y. A., & Ghajar, A. J. (2020). *Heat and Mass Transfer: Fundamentals and Applications* (6th ed.). McGraw-Hill.
 
 ### CFD and Thermal Management
 - Versteeg, H. K., & Malalasekera, W. (2007). *An Introduction to Computational Fluid Dynamics: The Finite Volume Method* (2nd ed.). Pearson.
@@ -158,4 +136,4 @@ I would love to hear about it! Please let us know so we can build a community of
 - ANSYS Fluent User's Guide (included with software installation)
 - ANSYS Innovation Courses: [https://innovationspace.ansys.com](https://innovationspace.ansys.com)
 
-**Ready to begin? Download ANSYS Student and explore computational thermal design through hands-on discovery.**
+
