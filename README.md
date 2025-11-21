@@ -1,24 +1,47 @@
 # Electronics Cooling with ANSYS Fluent: A Hands-On Experiential Workshop
 
-This experiential learning workshop uses free ANSYS Fluent Student software to explore thermal management of electronics through computational simulation. The workshop is designed for undergraduate heat transfer students and emphasizes hands-on discovery of heat sink design principles through computational fluid dynamics (CFD) without formal assessment or grading pressure.
+Heat Sink CFD Workshop: Comparative Analysis of No Heat Sink, Rectangular Fins, and Triangular Fins
+This detailed tutorial is designed for faculty and instructors to adopt for undergraduate or early graduate instruction in heat transfer, thermal management, or applied computational fluid dynamics. The materials, structure, and learning outcomes are fully aligned with ABET criteria, Bloom’s Taxonomy, and open educational resource best practice—ensuring your students achieve authentic, transferable engineering skills. 
+
+## Overview
+
+This workshop guides students through the process of computationally modeling, simulating, and comparing three heat sink configurations for electronics cooling:
+
+Flat plate with no heat sink
+Plate with rectangular fins
+Plate with triangular fins
+
+Students use ANSYS Fluent (Student or Academic versions) and provided reference files to perform geometry creation, meshing, physics setup, simulation, and data interpretation. The objective is a rigorous comparison of thermal performance, material efficiency, and practical design trade-offs for forced convection air cooling in an electronics context.
 
 ## Learning Objectives
 
-By the end of this workshop, students will be able to:
+By the end of this workshop, participants will be able to:
 
-- Create computational meshes appropriate for conjugate heat transfer problems
-- Set up and solve forced convection simulations in ANSYS Fluent
-- Visualize temperature distributions and heat transfer mechanisms using CFD post-processing tools
-- Compare heat sink geometries to inform engineering design decisions
-- Discover through simulation why triangular fins offer superior material efficiency compared to rectangular fins
+Create and import 3D CAD geometries for flat, rectangular-finned, and triangular-finned heat sinks in ANSYS Fluent (Apply)
 
-## The Challenge
+Generate and refine high-quality surface and volume meshes, including boundary layer treatment and mesh diagnostics (Apply, Analyze)
 
-A telecommunications system consists of two adjacent compartments sharing a common aluminum base plate that functions as an air-cooled heat sink. The system dissipates 40W of heat that must be transferred to atmospheric air flowing at 4 m/s over the base plate at an inlet temperature of 35°C.
+Set up conjugate heat transfer simulations, choosing appropriate materials and boundary conditions (Apply)
 
-**Your mission**: Determine if a flat base plate (36 cm × 36 cm) can keep the electronics within safe operating temperatures. When you discover through simulation that it cannot, design enhanced heat sink geometries and compare their thermal performance.
+Run and converge steady-state forced convection simulations, diagnosing solution errors and interpreting residual plots (Apply, Analyze)
 
-**Key learning insight**: Through direct computational experience, students discover that triangular fins achieve approximately 95% of rectangular fin performance while using 50% less material—demonstrating engineering optimization principles more powerfully than traditional lectures.
+Extract and interpret temperature, velocity, and heat flux results for each design (Analyze, Evaluate)
+
+Compare and contrast the thermal and material performance of alternative geometries using quantitative results (Evaluate)
+
+Justify recommendations for design selection based on simulation evidence and practical considerations (Evaluate, Create)
+
+Relate outcomes to sustainability and manufacturing constraints in thermal management (Evaluate, Create)
+
+Level	Sample Outcome
+Remembering	Define key heat transfer principles, material properties
+Understanding	Explain modes of heat transfer and significance of fin geometry
+Applying	Build 3D models, generate meshes, and set up simulations
+Analyzing	Inspect mesh quality, analyze simulation diagnostic data
+Evaluating	Compare temperature distributions and material footprints across designs
+Creating	Propose improved fin geometries or cooling solutions based on simulation data
+<img width="641" height="169" alt="image" src="https://github.com/user-attachments/assets/8b31dc96-2020-4fdc-8a2a-1cf807fe6e3c" />
+
 
 ## Software Requirements
 
@@ -44,12 +67,7 @@ A telecommunications system consists of two adjacent compartments sharing a comm
 1. **Download ANSYS Student**: Visit [ansys.com/academic/students](https://www.ansys.com/academic/students) (free download, no license needed)
 2. **Clone this repository**: 
    ```bash
-   git clone https://github.com/anjurgupta/fluent-electronics-cooling-workshop
-   ```
-
-
-
-## Learning Outcomes
+   git clone https://github.com/anjurgupta/Fluent-Heat-Sink-Workshop 
 
 ### Bloom's Taxonomy Alignment
 
@@ -113,8 +131,6 @@ If you use these materials in your teaching or research, please cite:
 [Anju R Gupta]. (2025). Electronics Cooling with ANSYS Fluent: A Hands-On Experiential Workshop. 
 GitHub repository. https://github.com/anjurgupta/fluent-electronics-cooling-workshop
 ```
-
-## Contact and Support
 
 **Questions or suggestions?** 
 - Open an issue in this repository
