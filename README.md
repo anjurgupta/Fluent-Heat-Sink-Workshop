@@ -44,7 +44,7 @@ A telecommunications system consists of two adjacent compartments sharing a comm
 1. **Download ANSYS Student**: Visit [ansys.com/academic/students](https://www.ansys.com/academic/students) (free download, no license needed)
 2. **Clone this repository**: 
    ```bash
-   git clone https://github.com/yourusername/fluent-electronics-cooling-workshop
+   git clone https://github.com/anjurgupta/fluent-electronics-cooling-workshop
    ```
 
 
